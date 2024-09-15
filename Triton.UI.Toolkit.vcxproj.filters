@@ -1,30 +1,57 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Resources">
-      <UniqueIdentifier>accd3aa8-1ba0-4223-9bbe-0c431709210b</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="Themes">
+      <UniqueIdentifier>{2c64b326-1d0c-4e70-b2fc-f748f7aff742}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Generated Files">
-      <UniqueIdentifier>{926ab91d-31b4-48c3-b9a4-e681349f27f0}</UniqueIdentifier>
+    <Filter Include="Controls">
+      <UniqueIdentifier>{526f3a9e-b5b2-44ac-b312-3d3d2657dbe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\SettingsCard">
+      <UniqueIdentifier>{fe0cd99e-c47a-4d92-9ad6-cab5b6782af6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windowing">
+      <UniqueIdentifier>{eb77ec9b-fded-4375-b258-8d58347a5df0}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp" />
-    <ClCompile Include="Class.cpp" />
     <ClCompile Include="$(GeneratedFilesDir)module.g.cpp" />
+    <ClCompile Include="Controls\SettingsCard\SettingsCard.cpp">
+      <Filter>Controls\SettingsCard</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\SettingsCard\SettingsCard.Properties.cpp">
+      <Filter>Controls\SettingsCard</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
+    <ClInclude Include="Controls\SettingsCard\SettingsCard.h">
+      <Filter>Controls\SettingsCard</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Midl Include="Class.idl" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Triton_UI_Toolkit.def" />
+    <None Include="Triton.UI.Toolkit.def" />
     <None Include="packages.config" />
+    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="readme.txt" />
+    <Natvis Include="$(MSBuildThisFileDirectory)..\..\natvis\wil.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Themes\Generic.xaml">
+      <Filter>Themes</Filter>
+    </Page>
+    <Page Include="Controls\SettingsCard\SettingsCard.Style.xaml">
+      <Filter>Controls\SettingsCard</Filter>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="Controls\SettingsCard\SettingsCard.idl">
+      <Filter>Controls\SettingsCard</Filter>
+    </Midl>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="LICENSE.txt" />
   </ItemGroup>
 </Project>

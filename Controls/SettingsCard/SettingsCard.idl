@@ -1,0 +1,42 @@
+/*
+ _____    _ _             _   _ ___ _____         _ _   _ _
+|_   _| _(_) |_ ___ _ _  | | | |_ _|_   _|__  ___| | |_(_) |_
+  | || '_| |  _/ _ \ ' \ | |_| || | _| |/ _ \/ _ \ | / / |  _|
+  |_||_| |_|\__\___/_||_(_)___/|___(_)_|\___/\___/_|_\_\_|\__|
+
+Copyright © 2024, Michel Gerritse
+All rights reserved.
+
+This source code is available under the BSD-3-Clause license.
+See LICENSE.txt in the root directory of this source tree.
+
+*/
+namespace Triton.UI.Controls
+{
+	[default_interface]
+	runtimeclass SettingsCard : Microsoft.UI.Xaml.Controls.Primitives.ButtonBase
+	{
+		SettingsCard();
+
+		Object HeaderIcon;
+		static Microsoft.UI.Xaml.DependencyProperty HeaderIconProperty{ get; };
+
+		Object Header;
+		static Microsoft.UI.Xaml.DependencyProperty HeaderProperty{ get; };
+
+		Object Description;
+		static Microsoft.UI.Xaml.DependencyProperty DescriptionProperty{ get; };
+
+		Object ActionIcon;
+		static Microsoft.UI.Xaml.DependencyProperty ActionIconProperty{ get; };
+
+		String ActionIconToolTip;
+		static Microsoft.UI.Xaml.DependencyProperty ActionIconToolTipProperty{ get; };
+
+		Boolean IsActionIconVisible;
+		static Microsoft.UI.Xaml.DependencyProperty IsActionIconVisibleProperty{ get; };
+		
+		Boolean IsClickEnabled;
+		static Microsoft.UI.Xaml.DependencyProperty IsClickEnabledProperty{ get; };
+	}
+}

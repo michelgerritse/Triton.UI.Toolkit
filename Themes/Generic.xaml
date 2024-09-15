@@ -1,0 +1,24 @@
+<!--
+ _____    _ _             _   _ ___ _____         _ _   _ _
+|_   _| _(_) |_ ___ _ _  | | | |_ _|_   _|__  ___| | |_(_) |_
+  | || '_| |  _/ _ \ ' \ | |_| || | _| |/ _ \/ _ \ | / / |  _|
+  |_||_| |_|\__\___/_||_(_)___/|___(_)_|\___/\___/_|_\_\_|\__|
+
+Copyright © 2024, Michel Gerritse
+All rights reserved.
+
+This source code is available under the BSD-3-Clause license.
+See LICENSE.txt in the root directory of this source tree.
+
+-->
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ResourceDictionary.MergedDictionaries>
+        <!-- SettingsCard resource dictionary -->
+        <ResourceDictionary Source="ms-appx:///Triton.UI.Toolkit/Controls/SettingsCard/SettingsCard.Style.xaml"/>
+        
+        <!-- More resources go here -->
+    </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>
