@@ -10,8 +10,14 @@
     <Filter Include="Controls\SettingsCard">
       <UniqueIdentifier>{fe0cd99e-c47a-4d92-9ad6-cab5b6782af6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Controls\SettingsExpander">
+      <UniqueIdentifier>{c528643f-341d-4f78-a241-2a19d4a83cb7}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Windowing">
       <UniqueIdentifier>{eb77ec9b-fded-4375-b258-8d58347a5df0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windowing\WindowEx">
+      <UniqueIdentifier>{7a645a2d-d3b5-4e1f-8f83-f76d90638382}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -23,11 +29,26 @@
     <ClCompile Include="Controls\SettingsCard\SettingsCard.Properties.cpp">
       <Filter>Controls\SettingsCard</Filter>
     </ClCompile>
+    <ClCompile Include="Windowing\WindowEx\WindowEx.cpp">
+      <Filter>Windowing\WindowEx</Filter>
+    </ClCompile>
+    <ClCompile Include="Windowing\WindowEx\WindowEx.Events.cpp">
+      <Filter>Windowing\WindowEx</Filter>
+    </ClCompile>
+    <ClCompile Include="Windowing\WindowEx\WindowEx.Messages.cpp">
+      <Filter>Windowing\WindowEx</Filter>
+    </ClCompile>
+    <ClCompile Include="Windowing\WindowEx\WindowEx.Properties.cpp">
+      <Filter>Windowing\WindowEx</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
     <ClInclude Include="Controls\SettingsCard\SettingsCard.h">
       <Filter>Controls\SettingsCard</Filter>
+    </ClInclude>
+    <ClInclude Include="Windowing\WindowEx\WindowEx.h">
+      <Filter>Windowing\WindowEx</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -49,6 +70,9 @@
   <ItemGroup>
     <Midl Include="Controls\SettingsCard\SettingsCard.idl">
       <Filter>Controls\SettingsCard</Filter>
+    </Midl>
+    <Midl Include="Windowing\WindowEx\WindowEx.idl">
+      <Filter>Windowing\WindowEx</Filter>
     </Midl>
   </ItemGroup>
   <ItemGroup>

@@ -106,6 +106,7 @@
   <ItemGroup>
     <ClInclude Include="Controls\SettingsCard\SettingsCard.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="Windowing\WindowEx\WindowEx.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Controls\SettingsCard\SettingsCard.cpp" />
@@ -114,6 +115,10 @@
       <PrecompiledHeader>Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="$(GeneratedFilesDir)module.g.cpp" />
+    <ClCompile Include="Windowing\WindowEx\WindowEx.cpp" />
+    <ClCompile Include="Windowing\WindowEx\WindowEx.Events.cpp" />
+    <ClCompile Include="Windowing\WindowEx\WindowEx.Messages.cpp" />
+    <ClCompile Include="Windowing\WindowEx\WindowEx.Properties.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -126,6 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <Midl Include="Controls\SettingsCard\SettingsCard.idl" />
+    <Midl Include="Windowing\WindowEx\WindowEx.idl" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="LICENSE.txt" />

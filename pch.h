@@ -26,6 +26,7 @@ See LICENSE.txt in the root directory of this source tree.
 #include <winrt/Windows.System.h>
 
 /* Windows App SDK headers */
+#include <winrt/Microsoft.UI.Windowing.h>
 #include <winrt/Microsoft.UI.Xaml.h>
 #include <winrt/Microsoft.UI.Xaml.Controls.h>
 #include <winrt/Microsoft.UI.Xaml.Controls.Primitives.h>
@@ -36,6 +37,7 @@ See LICENSE.txt in the root directory of this source tree.
 #include <winrt/Microsoft.UI.Xaml.Media.h>
 #include <winrt/Microsoft.UI.Xaml.Navigation.h>
 #include <winrt/Microsoft.UI.Xaml.Shapes.h>
+#include <microsoft.ui.xaml.window.h>
 
 /* Implementation headers */
 #include "Controls/SettingsCard/SettingsCard.h"
