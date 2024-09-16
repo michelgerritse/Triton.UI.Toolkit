@@ -19,6 +19,12 @@
     <Filter Include="Windowing\WindowEx">
       <UniqueIdentifier>{7a645a2d-d3b5-4e1f-8f83-f76d90638382}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Extensions">
+      <UniqueIdentifier>{1185ea13-34ca-4623-b0bb-bb675cc0894f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extensions\FontIconExtension">
+      <UniqueIdentifier>{ba427dc3-3bb6-4717-b187-780f3439989e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp" />
@@ -38,6 +44,9 @@
     <ClCompile Include="Windowing\WindowEx\WindowEx.Properties.cpp">
       <Filter>Windowing\WindowEx</Filter>
     </ClCompile>
+    <ClCompile Include="Extensions\FontIconExtension.cpp">
+      <Filter>Extensions\FontIconExtension</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -46,6 +55,9 @@
     </ClInclude>
     <ClInclude Include="Windowing\WindowEx\WindowEx.h">
       <Filter>Windowing\WindowEx</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\FontIconExtension.h">
+      <Filter>Extensions\FontIconExtension</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -70,6 +82,9 @@
     </Midl>
     <Midl Include="Windowing\WindowEx\WindowEx.idl">
       <Filter>Windowing\WindowEx</Filter>
+    </Midl>
+    <Midl Include="Extensions\FontIconExtension.idl">
+      <Filter>Extensions\FontIconExtension</Filter>
     </Midl>
   </ItemGroup>
   <ItemGroup>

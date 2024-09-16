@@ -13,6 +13,9 @@ See LICENSE.txt in the root directory of this source tree.
 */
 #pragma once
 
+#define WIN32_LEAN_AND_MEAN
+#define WINRT_LEAN_AND_MEAN
+
 /* Win32 SDK headers */
 #include <windows.h>
 #include <unknwn.h>
@@ -22,6 +25,7 @@ See LICENSE.txt in the root directory of this source tree.
 
 /* UWP SDK headers */
 #include <winrt/Windows.Foundation.h>
+#include <winrt/Windows.UI.Text.h>
 #include <winrt/Windows.UI.Xaml.Interop.h>
 #include <winrt/Windows.System.h>
 

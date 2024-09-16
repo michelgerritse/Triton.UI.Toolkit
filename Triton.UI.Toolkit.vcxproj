@@ -105,12 +105,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Controls\SettingsCard\SettingsCard.h" />
+    <ClInclude Include="Extensions\FontIconExtension.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Windowing\WindowEx\WindowEx.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Controls\SettingsCard\SettingsCard.cpp" />
     <ClCompile Include="Controls\SettingsCard\SettingsCard.Properties.cpp" />
+    <ClCompile Include="Extensions\FontIconExtension.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader>Create</PrecompiledHeader>
     </ClCompile>
@@ -130,6 +132,7 @@
   </ItemGroup>
   <ItemGroup>
     <Midl Include="Controls\SettingsCard\SettingsCard.idl" />
+    <Midl Include="Extensions\FontIconExtension.idl" />
     <Midl Include="Windowing\WindowEx\WindowEx.idl" />
   </ItemGroup>
   <ItemGroup>
