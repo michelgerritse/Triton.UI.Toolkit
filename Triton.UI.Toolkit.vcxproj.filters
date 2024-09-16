@@ -25,6 +25,9 @@
     <Filter Include="Extensions\FontIconExtension">
       <UniqueIdentifier>{ba427dc3-3bb6-4717-b187-780f3439989e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Extensions\SymbolIconExtension">
+      <UniqueIdentifier>{121e875c-b2e9-4999-b943-0b3941af157d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp" />
@@ -47,6 +50,9 @@
     <ClCompile Include="Extensions\FontIconExtension.cpp">
       <Filter>Extensions\FontIconExtension</Filter>
     </ClCompile>
+    <ClCompile Include="Extensions\SymbolIconExtension.cpp">
+      <Filter>Extensions\SymbolIconExtension</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -58,6 +64,9 @@
     </ClInclude>
     <ClInclude Include="Extensions\FontIconExtension.h">
       <Filter>Extensions\FontIconExtension</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\SymbolIconExtension.h">
+      <Filter>Extensions\SymbolIconExtension</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -85,6 +94,9 @@
     </Midl>
     <Midl Include="Extensions\FontIconExtension.idl">
       <Filter>Extensions\FontIconExtension</Filter>
+    </Midl>
+    <Midl Include="Extensions\SymbolIconExtension.idl">
+      <Filter>Extensions\SymbolIconExtension</Filter>
     </Midl>
   </ItemGroup>
   <ItemGroup>
