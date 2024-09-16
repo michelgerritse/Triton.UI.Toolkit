@@ -49,8 +49,8 @@ namespace winrt::Triton::UI::Extensions::implementation
 
 #pragma endregion
 	
-/* IconFont properties */
-#pragma region IconFont properties
+/* FontIcon properties */
+#pragma region FontIcon properties
 
 	muxm::FontFamily FontIconExtension::FontFamily()
 	{
