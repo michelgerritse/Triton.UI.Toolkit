@@ -21,9 +21,9 @@ namespace winrt::Triton::UI::Windowing::implementation
 		return m_MinWidth;
 	}
 
-	void WindowEx::MinWidth(const int32_t& value)
+	void WindowEx::MinWidth(int32_t const& Value)
 	{
-		m_MinWidth = value;
+		m_MinWidth = Value;
 	}
 
 	int32_t WindowEx::MinHeight()
@@ -31,9 +31,9 @@ namespace winrt::Triton::UI::Windowing::implementation
 		return m_MinHeight;
 	}
 
-	void WindowEx::MinHeight(const int32_t& value)
+	void WindowEx::MinHeight(int32_t const& Value)
 	{
-		m_MinHeight = value;
+		m_MinHeight = Value;
 	}
 	
 	bool WindowEx::IsMinimizable()
@@ -41,9 +41,9 @@ namespace winrt::Triton::UI::Windowing::implementation
 		return m_Presenter.IsMinimizable();
 	}
 	
-	void WindowEx::IsMinimizable(const bool& value)
+	void WindowEx::IsMinimizable(bool const& Value)
 	{
-		m_Presenter.IsMinimizable(value);
+		m_Presenter.IsMinimizable(Value);
 	}
 
 	bool WindowEx::IsMaximizable()
@@ -51,9 +51,9 @@ namespace winrt::Triton::UI::Windowing::implementation
 		return m_Presenter.IsMaximizable();
 	}
 
-	void WindowEx::IsMaximizable(const bool& value)
+	void WindowEx::IsMaximizable(bool const& Value)
 	{
-		m_Presenter.IsMaximizable(value);
+		m_Presenter.IsMaximizable(Value);
 	}
 
 	bool WindowEx::IsResizable()
@@ -61,9 +61,9 @@ namespace winrt::Triton::UI::Windowing::implementation
 		return m_Presenter.IsResizable();
 	}
 
-	void WindowEx::IsResizable(const bool& value)
+	void WindowEx::IsResizable(bool const& Value)
 	{
-		m_Presenter.IsResizable(value);
+		m_Presenter.IsResizable(Value);
 	}
 
 	bool WindowEx::IsAlwaysOnTop()
@@ -71,9 +71,9 @@ namespace winrt::Triton::UI::Windowing::implementation
 		return m_Presenter.IsAlwaysOnTop();
 	}
 
-	void WindowEx::IsAlwaysOnTop(const bool& value)
+	void WindowEx::IsAlwaysOnTop(bool const& Value)
 	{
-		m_Presenter.IsAlwaysOnTop(value);
+		m_Presenter.IsAlwaysOnTop(Value);
 	}
 
 	bool WindowEx::ExtendsClientArea()
@@ -81,12 +81,12 @@ namespace winrt::Triton::UI::Windowing::implementation
 		return m_ExtendsClientArea;
 	}
 
-	void WindowEx::ExtendsClientArea(const bool& value)
+	void WindowEx::ExtendsClientArea(bool const& Value)
 	{
 		MARGINS Margins{ 0, 0, 0, 0 };
 		
-		m_ExtendsClientArea = value;
-		ExtendsContentIntoTitleBar(value);
+		m_ExtendsClientArea = Value;
+		ExtendsContentIntoTitleBar(Value);
 
 		if (m_ExtendsClientArea)
 		{

@@ -116,7 +116,6 @@
     </ClCompile>
     <ClCompile Include="$(GeneratedFilesDir)module.g.cpp" />
     <ClCompile Include="Windowing\WindowEx\WindowEx.cpp" />
-    <ClCompile Include="Windowing\WindowEx\WindowEx.Events.cpp" />
     <ClCompile Include="Windowing\WindowEx\WindowEx.Messages.cpp" />
     <ClCompile Include="Windowing\WindowEx\WindowEx.Properties.cpp" />
   </ItemGroup>

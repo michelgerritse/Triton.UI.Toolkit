@@ -28,12 +28,10 @@ namespace winrt::Triton::UI::Windowing::implementation
 
 		/* Get window DPI */
 		m_Dpi = GetDpiForWindow(m_hWnd);
+		m_DpiScale = (double)m_Dpi / 96.0;
 
 		/* Get presenter */
 		m_Presenter = AppWindow().Presenter().as<OverlappedPresenter>();
-
-		/* Register event handler(s) */
-		m_AppWindowChangedToken = AppWindow().Changed({ get_weak(), &WindowEx::AppWindowChangedEvent });
 
 		/* Subclass window */
 		winrt::check_pointer(m_OriginalWndProc = InstallWindowSubclass(m_hWnd, WindowEx::SubclassWndProc));

@@ -32,9 +32,6 @@
     <ClCompile Include="Windowing\WindowEx\WindowEx.cpp">
       <Filter>Windowing\WindowEx</Filter>
     </ClCompile>
-    <ClCompile Include="Windowing\WindowEx\WindowEx.Events.cpp">
-      <Filter>Windowing\WindowEx</Filter>
-    </ClCompile>
     <ClCompile Include="Windowing\WindowEx\WindowEx.Messages.cpp">
       <Filter>Windowing\WindowEx</Filter>
     </ClCompile>

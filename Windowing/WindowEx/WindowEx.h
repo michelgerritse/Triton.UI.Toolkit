@@ -31,27 +31,25 @@ namespace winrt::Triton::UI::Windowing::implementation
 		WindowEx();
 
 		int32_t		MinWidth();
-		void		MinWidth(const int32_t& value);
+		void		MinWidth(int32_t const&);
 
 		int32_t		MinHeight();
-		void		MinHeight(const int32_t& value);
+		void		MinHeight(int32_t const&);
 
 		bool		IsMinimizable();
-		void		IsMinimizable(const bool& value);
+		void		IsMinimizable(bool const&);
 		
 		bool		IsMaximizable();
-		void		IsMaximizable(const bool& value);
+		void		IsMaximizable(bool const&);
 		
 		bool		IsResizable();
-		void		IsResizable(const bool& value);
+		void		IsResizable(bool const&);
 
 		bool		IsAlwaysOnTop();
-		void		IsAlwaysOnTop(const bool& value);
+		void		IsAlwaysOnTop(bool const&);
 
 		bool		ExtendsClientArea();
-		void		ExtendsClientArea(const bool& value);
-
-		void		AppWindowChangedEvent(IInspectable const& sender, AppWindowChangedEventArgs const& e);
+		void		ExtendsClientArea(bool const&);
 
 	private:
 		HWND		m_hWnd{ nullptr };
@@ -59,12 +57,12 @@ namespace winrt::Triton::UI::Windowing::implementation
 		WNDPROC		m_OriginalWndProc{ nullptr };
 		WNDPROC		m_OriginalChildWndProc{ nullptr };
 		uint32_t	m_Dpi{ USER_DEFAULT_SCREEN_DPI };
+		double		m_DpiScale{ 1.0 };
 		int32_t		m_MinWidth{ 0 };
 		int32_t		m_MinHeight{ 0 };
 		bool		m_ExtendsClientArea{ false };
 
 		OverlappedPresenter m_Presenter{ nullptr };
-		event_token			m_AppWindowChangedToken;
 
 		WNDPROC		InstallWindowSubclass(HWND hWnd, WNDPROC lpNewWndProc);
 		void		RestoreWindowSubclass(HWND hWnd, WNDPROC lpOriginalWndProc);
