@@ -28,6 +28,9 @@
     <Filter Include="Extensions\SymbolIconExtension">
       <UniqueIdentifier>{121e875c-b2e9-4999-b943-0b3941af157d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Extensions\BitmapIconExtension">
+      <UniqueIdentifier>{9a0665c6-f3cc-4ba0-a65e-89ef30db023a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp" />
@@ -53,6 +56,9 @@
     <ClCompile Include="Extensions\SymbolIconExtension.cpp">
       <Filter>Extensions\SymbolIconExtension</Filter>
     </ClCompile>
+    <ClCompile Include="Extensions\BitmapIconExtension.cpp">
+      <Filter>Extensions\BitmapIconExtension</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -67,6 +73,9 @@
     </ClInclude>
     <ClInclude Include="Extensions\SymbolIconExtension.h">
       <Filter>Extensions\SymbolIconExtension</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\BitmapIconExtension.h">
+      <Filter>Extensions\BitmapIconExtension</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -97,6 +106,9 @@
     </Midl>
     <Midl Include="Extensions\SymbolIconExtension.idl">
       <Filter>Extensions\SymbolIconExtension</Filter>
+    </Midl>
+    <Midl Include="Extensions\BitmapIconExtension.idl">
+      <Filter>Extensions\BitmapIconExtension</Filter>
     </Midl>
   </ItemGroup>
   <ItemGroup>
