@@ -34,7 +34,7 @@ namespace winrt::Triton::UI::Extensions::implementation
 		muxc::Symbol Symbol();
 		void Symbol(muxc::Symbol Value);
 
-		/* FontIcon properties inherited from IconElement */
+		/* SymbolIcon properties inherited from IconElement */
 		muxm::Brush Foreground();
 		void Foreground(muxm::Brush Value);
 
