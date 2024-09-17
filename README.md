@@ -9,6 +9,7 @@ The following namespaces are exported from the runtime library:
 - SettingsCard
 
 ### Triton.UI.Extensions
+- BitmapIconExtension
 - FontIconExtension
 - SymbolIconExtension
 
