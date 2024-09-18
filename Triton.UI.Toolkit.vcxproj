@@ -105,6 +105,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Controls\SettingsCard\SettingsCard.h" />
+    <ClInclude Include="Controls\SettingsExpander\SettingsExpander.h" />
     <ClInclude Include="Extensions\BitmapIconExtension.h" />
     <ClInclude Include="Extensions\FontIconExtension.h" />
     <ClInclude Include="Extensions\SymbolIconExtension.h" />
@@ -114,6 +115,8 @@
   <ItemGroup>
     <ClCompile Include="Controls\SettingsCard\SettingsCard.cpp" />
     <ClCompile Include="Controls\SettingsCard\SettingsCard.Properties.cpp" />
+    <ClCompile Include="Controls\SettingsExpander\SettingsExpander.cpp" />
+    <ClCompile Include="Controls\SettingsExpander\SettingsExpander.Properties.cpp" />
     <ClCompile Include="Extensions\BitmapIconExtension.cpp" />
     <ClCompile Include="Extensions\FontIconExtension.cpp" />
     <ClCompile Include="Extensions\SymbolIconExtension.cpp" />
@@ -136,6 +139,7 @@
   </ItemGroup>
   <ItemGroup>
     <Midl Include="Controls\SettingsCard\SettingsCard.idl" />
+    <Midl Include="Controls\SettingsExpander\SettingsExpander.idl" />
     <Midl Include="Extensions\BitmapIconExtension.idl" />
     <Midl Include="Extensions\FontIconExtension.idl" />
     <Midl Include="Extensions\SymbolIconExtension.idl" />

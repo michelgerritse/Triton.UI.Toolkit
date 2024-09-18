@@ -59,6 +59,12 @@
     <ClCompile Include="Extensions\BitmapIconExtension.cpp">
       <Filter>Extensions\BitmapIconExtension</Filter>
     </ClCompile>
+    <ClCompile Include="Controls\SettingsExpander\SettingsExpander.cpp">
+      <Filter>Controls\SettingsExpander</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\SettingsExpander\SettingsExpander.Properties.cpp">
+      <Filter>Controls\SettingsExpander</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -76,6 +82,9 @@
     </ClInclude>
     <ClInclude Include="Extensions\BitmapIconExtension.h">
       <Filter>Extensions\BitmapIconExtension</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\SettingsExpander\SettingsExpander.h">
+      <Filter>Controls\SettingsExpander</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -109,6 +118,9 @@
     </Midl>
     <Midl Include="Extensions\BitmapIconExtension.idl">
       <Filter>Extensions\BitmapIconExtension</Filter>
+    </Midl>
+    <Midl Include="Controls\SettingsExpander\SettingsExpander.idl">
+      <Filter>Controls\SettingsExpander</Filter>
     </Midl>
   </ItemGroup>
   <ItemGroup>
