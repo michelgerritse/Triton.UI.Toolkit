@@ -12,7 +12,7 @@ See LICENSE.txt in the root directory of this source tree.
 
 */
 #pragma once
-#include "Controls.SettingsCard.g.h"
+#include "Controls/SettingsCard.g.h"
 
 using namespace winrt;
 using namespace Microsoft::UI::Xaml;

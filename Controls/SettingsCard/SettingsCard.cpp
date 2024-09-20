@@ -13,7 +13,7 @@ See LICENSE.txt in the root directory of this source tree.
 */
 #include "pch.h"
 #include "SettingsCard.h"
-#include "Controls.SettingsCard.g.cpp"
+#include "Controls/SettingsCard.g.cpp"
 
 /* Element name definitions, make sure this is consistent with the XAML naming */
 constexpr auto HeaderIconElementName  = L"HeaderIconElement";

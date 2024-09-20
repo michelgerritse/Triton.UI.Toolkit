@@ -13,7 +13,7 @@ See LICENSE.txt in the root directory of this source tree.
 */
 #include "pch.h"
 #include "WindowEx.h"
-#include "Windowing.WindowEx.g.cpp"
+#include "Windowing/WindowEx.g.cpp"
 
 namespace winrt::Triton::UI::Windowing::implementation
 {	
@@ -26,9 +26,12 @@ namespace winrt::Triton::UI::Windowing::implementation
 		auto WindowNative = m_inner.as<::IWindowNative>();
 		winrt::check_hresult(WindowNative->get_WindowHandle(&m_hWnd));
 
+		/* Get window Id */
+		m_WindowId = AppWindow().Id();
+
 		/* Get window DPI */
 		m_Dpi = GetDpiForWindow(m_hWnd);
-		m_DpiScale = (double)m_Dpi / 96.0;
+		m_DpiScale = (float)m_Dpi / 96.f;
 
 		/* Get presenter */
 		m_Presenter = AppWindow().Presenter().as<OverlappedPresenter>();

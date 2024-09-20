@@ -16,7 +16,7 @@ See LICENSE.txt in the root directory of this source tree.
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
     <ResourceDictionary.MergedDictionaries>
-        <!-- SettingsCard resource dictionary -->
+        <!-- Default SettingsCard Style -->
         <ResourceDictionary Source="ms-appx:///Triton.UI.Toolkit/Controls/SettingsCard/SettingsCard.Style.xaml"/>
         
         <!-- More resources go here -->

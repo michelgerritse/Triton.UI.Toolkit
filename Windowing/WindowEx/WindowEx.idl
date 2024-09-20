@@ -18,6 +18,7 @@ namespace Triton.UI.Windowing
 	{
 		WindowEx();
 
+		/* Properties (read/write) */
 		Int32 MinWidth;
 		Int32 MinHeight;
 		
@@ -27,5 +28,8 @@ namespace Triton.UI.Windowing
 		Boolean IsAlwaysOnTop;
 
 		Boolean ExtendsClientArea;
+
+		/* Properties (read only) */
+		Single DpiScale{ get; };
 	}
 }

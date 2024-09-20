@@ -98,4 +98,9 @@ namespace winrt::Triton::UI::Windowing::implementation
 		/* Force a WM_NCCALCSIZE message, which specifies the client area size */
 		//::SetWindowPos(m_hWnd, nullptr, 0, 0, 0, 0, SWP_FRAMECHANGED | SWP_NOSIZE | SWP_NOMOVE | SWP_NOZORDER);
 	}
+
+	float WindowEx::DpiScale()
+	{
+		return m_DpiScale;
+	}
 }

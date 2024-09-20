@@ -33,7 +33,7 @@ namespace winrt::Triton::UI::Windowing::implementation
 		/* Reference: https://learn.microsoft.com/en-us/windows/win32/hidpi/wm-dpichanged */
 
 		m_Dpi = HIWORD(wParam);
-		m_DpiScale = (double)m_Dpi / 96.0;
+		m_DpiScale = (float)m_Dpi / 96.f;
 
 		return ::CallWindowProc(m_OriginalWndProc, m_hWnd, WM_DPICHANGED, wParam, lParam);
 	}

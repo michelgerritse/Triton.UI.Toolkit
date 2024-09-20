@@ -13,7 +13,7 @@ See LICENSE.txt in the root directory of this source tree.
 */
 #include "pch.h"
 #include "SymbolIconExtension.h"
-#include "Extensions.SymbolIconExtension.g.cpp"
+#include "Extensions/SymbolIconExtension.g.cpp"
 
 /* References:
 	https://learn.microsoft.com/en-us/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.markup.markupextension

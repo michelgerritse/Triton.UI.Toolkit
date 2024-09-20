@@ -23,13 +23,14 @@ See LICENSE.txt in the root directory of this source tree.
 #include <hstring.h>
 #undef GetCurrentTime // Undefine GetCurrentTime macro to prevent conflict with Storyboard::GetCurrentTime
 
-/* UWP SDK headers */
+/* Universal Windows Platform headers */
 #include <winrt/Windows.Foundation.h>
 #include <winrt/Windows.UI.Text.h>
 #include <winrt/Windows.UI.Xaml.Interop.h>
 #include <winrt/Windows.System.h>
 
 /* Windows App SDK headers */
+#include <winrt/Microsoft.UI.Input.h>
 #include <winrt/Microsoft.UI.Windowing.h>
 #include <winrt/Microsoft.UI.Xaml.h>
 #include <winrt/Microsoft.UI.Xaml.Controls.h>
@@ -45,3 +46,4 @@ See LICENSE.txt in the root directory of this source tree.
 
 /* Implementation headers */
 #include "Controls/SettingsCard/SettingsCard.h"
+#include "Controls/SettingsExpander/SettingsExpander.h"

@@ -13,9 +13,12 @@ See LICENSE.txt in the root directory of this source tree.
 */
 #pragma once
 #include "pch.h"
-#include "Extensions.SymbolIconExtension.g.h"
+#include "Extensions/SymbolIconExtension.g.h"
 
 using namespace winrt;
+using namespace Microsoft::UI::Xaml;
+using namespace Microsoft::UI::Xaml::Controls;
+using namespace Windows::Foundation;
 
 namespace muxc = Microsoft::UI::Xaml::Controls;
 namespace muxm = Microsoft::UI::Xaml::Media;

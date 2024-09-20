@@ -13,7 +13,7 @@ See LICENSE.txt in the root directory of this source tree.
 */
 #include "pch.h"
 #include "BitmapIconExtension.h"
-#include "Extensions.BitmapIconExtension.g.cpp"
+#include "Extensions/BitmapIconExtension.g.cpp"
 
 /* References:
 	https://learn.microsoft.com/en-us/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.markup.markupextension
